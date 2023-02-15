@@ -10,14 +10,14 @@ This project contains the main features of the ricecake application.
 
 ### Testnet
 
-- Token: https://goerli.etherscan.io/address/0x2AEf702f83404ea814396951bcA54C088551FD01
+- Token: https://testnet.bscscan.com/address/0x717C82D2FFE50357A6c81a4c3144E656c2468309
 
 ## How to use
 
 Clone the repository
 
 ```shell
-
+git clone git@github.com:RiceCakeProject/ricecake-contracts.git
 ```
 
 Run yarn at the root of the workspace

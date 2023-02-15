@@ -2,7 +2,7 @@ import { ethers } from "hardhat";
 
 async function main() {
   const RiceCake = await ethers.getContractFactory("RiceCake");
-  const riceCake = await RiceCake.deploy("0xb479AAF66CC3d5EF44c602759727dc5eB978193D");
+  const riceCake = await RiceCake.deploy();
 
   await riceCake.deployed();
 
